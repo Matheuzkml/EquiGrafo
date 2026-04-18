@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -29,7 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://e7ce-186-121-110-199.ngrok-free.app"
+    "https://01e80a183a52.ngrok-free.app"
 ]
 
 
@@ -51,6 +55,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -83,25 +88,36 @@ WSGI_APPLICATION = 'EquiGrafo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'camaras_base',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
-        'OPTIONS': {
-            # activa Strict Mode al conectar
-            'init_command': "SET SESSION sql_mode='STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION'"
-        },
-        'TEST': {
-            'NAME': 'test_camaras_base',
-            'CHARSET': 'utf8mb4',
-            'COLLATION': 'utf8mb4_general_ci',
-        },
+DATABASE_URL = os.environ.get("DATABASE_URL")
+
+if DATABASE_URL:
+    DATABASES = {
+        'default': dj_database_url.config(
+            default=DATABASE_URL,
+            conn_max_age=600,
+            conn_health_checks=True,
+        )
     }
-}
+else:
+    # Fallback a tu base local MySQL (XAMPP) si no hay URL de SUPABASE
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'camaras_base',
+            'USER': 'root',
+            'PASSWORD': '',
+            'HOST': 'localhost',
+            'PORT': '3306',
+            'OPTIONS': {
+                'init_command': "SET SESSION sql_mode='STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION'"
+            },
+            'TEST': {
+                'NAME': 'test_camaras_base',
+                'CHARSET': 'utf8mb4',
+                'COLLATION': 'utf8mb4_general_ci',
+            },
+        }
+    }
 
 
 
@@ -143,6 +159,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

@@ -1,0 +1,1047 @@
+[
+    {
+        "model": "admin_interface.theme",
+        "pk": 1,
+        "fields": {
+            "name": "Equigrafo",
+            "active": true,
+            "title": "Administraci??n de EquiGrafo",
+            "title_color": "#F5F5F5",
+            "title_visible": true,
+            "logo": "admin-interface/logo/Dise??o_sin_t??tulo_17Qdvqs.png",
+            "logo_color": "#FFFFFF",
+            "logo_max_width": 200,
+            "logo_max_height": 50,
+            "logo_visible": true,
+            "favicon": "admin-interface/favicon/Dise??o_sin_t??tulos.png",
+            "env_name": "EquiGrafo",
+            "env_color": "#FFFEF1",
+            "env_visible_in_header": true,
+            "env_visible_in_favicon": false,
+            "language_chooser_active": true,
+            "language_chooser_control": "default-select",
+            "language_chooser_display": "code",
+            "css_header_background_color": "#303030",
+            "css_header_text_color": "#FFFFFF",
+            "css_header_link_color": "#FFFFFF",
+            "css_header_link_hover_color": "#F05D9B",
+            "css_module_background_color": "#9687CA",
+            "css_module_background_selected_color": "#EAE4FF",
+            "css_module_text_color": "#FFFFFF",
+            "css_module_link_color": "#FFFFFF",
+            "css_module_link_selected_color": "#FFFFFF",
+            "css_module_link_hover_color": "#CDF0EF",
+            "css_module_rounded_corners": true,
+            "css_generic_link_color": "#303030",
+            "css_generic_link_hover_color": "#3E89A2",
+            "css_generic_link_active_color": "#29B864",
+            "css_save_button_background_color": "#5F5F68",
+            "css_save_button_background_hover_color": "#845A87",
+            "css_save_button_text_color": "#FFFFFF",
+            "css_delete_button_background_color": "#BA2121",
+            "css_delete_button_background_hover_color": "#A41515",
+            "css_delete_button_text_color": "#FFFFFF",
+            "related_modal_active": true,
+            "related_modal_background_color": "#000000",
+            "related_modal_background_opacity": "0.3",
+            "related_modal_rounded_corners": true,
+            "related_modal_close_button_visible": true,
+            "list_filter_highlight": true,
+            "list_filter_dropdown": true,
+            "list_filter_sticky": true,
+            "list_filter_removal_links": false,
+            "foldable_apps": true,
+            "show_fieldsets_as_tabs": false,
+            "show_inlines_as_tabs": false,
+            "collapsible_stacked_inlines": false,
+            "collapsible_stacked_inlines_collapsed": true,
+            "collapsible_tabular_inlines": false,
+            "collapsible_tabular_inlines_collapsed": true,
+            "recent_actions_visible": true,
+            "form_submit_sticky": false,
+            "form_pagination_sticky": false
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 3,
+        "fields": {
+            "titulo": "Nikon Z5: Entrada a lo Profesional",
+            "image": "imagenes/3_K6w9WVH.jpg",
+            "descripcion": "C??mara mirrorless full-frame con resoluci??n de 24.3 MP y estabilizaci??n de imagen, perfecta para explorar la fotograf??a de formato completo.",
+            "cantidad": 1,
+            "precio": "4500000.00",
+            "precio_compra": "3000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 5,
+        "fields": {
+            "titulo": "Kodak PIXPRO AZ901",
+            "image": "imagenes/6.jpg",
+            "descripcion": "C??mara bridge con zoom ??ptico de 90x y sensor de 20.68 MP, perfecta para paisajes y sujetos lejanos. Graba en Full HD y tiene Wi-Fi.",
+            "cantidad": 3,
+            "precio": "4500000.00",
+            "precio_compra": "3000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 6,
+        "fields": {
+            "titulo": "Hasselblad X2D 100C",
+            "image": "imagenes/450_1000.jpg",
+            "descripcion": "C??mara mirrorless de formato medio con sensor de 100 MP, estabilizaci??n en 5 ejes y enfoque autom??tico preciso.",
+            "cantidad": 3,
+            "precio": "2000000.00",
+            "precio_compra": "1000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 7,
+        "fields": {
+            "titulo": "Sony Alpha 1: El Tope de la Tecnolog??a",
+            "image": "imagenes/4.jpg",
+            "descripcion": "C??mara full-frame con sensor de 50.1 MP, disparo continuo de 30 fps y grabaci??n en 8K. Dise??ada para profesionales que necesitan lo mejor en cada aspecto.",
+            "cantidad": 0,
+            "precio": "2300000.00",
+            "precio_compra": "1200000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 9,
+        "fields": {
+            "titulo": "Sony Alpha 7 IV",
+            "image": "imagenes/9.jpg",
+            "descripcion": "C??mara mirrorless full-frame de 33 MP con grabaci??n en 4K, enfoque autom??tico avanzado y excelente rendimiento en poca luz.",
+            "cantidad": 1,
+            "precio": "4500000.00",
+            "precio_compra": "3300000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 10,
+        "fields": {
+            "titulo": "Fujifilm X-T4",
+            "image": "imagenes/11.jpg",
+            "descripcion": "C??mara mirrorless APS-C de 26.1 MP con estabilizaci??n en 5 ejes y grabaci??n en 4K. Perfecta para quienes buscan un dise??o retro y calidad de imagen vibran",
+            "cantidad": 3,
+            "precio": "4500000.00",
+            "precio_compra": "3300000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 11,
+        "fields": {
+            "titulo": "Kodak DCS Pro SLR/n",
+            "image": "imagenes/12.jpg",
+            "descripcion": "C??mara DSLR full-frame de 14 MP, ideal para fot??grafos profesionales que buscan alta resoluci??n y compatibilidad con lentes Nikon F, ofreciendo excelente calidad de imagen y control avanzado.",
+            "cantidad": 1,
+            "precio": "6000000.00",
+            "precio_compra": "5000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 12,
+        "fields": {
+            "titulo": "Canon EOS 7D Mark II",
+            "image": "imagenes/10.jpg",
+            "descripcion": "DSLR de 20.2 MP con r??faga de 10 fps y enfoque r??pido. Ideal para fotograf??a deportiva y de acci??n",
+            "cantidad": 3,
+            "precio": "4500000.00",
+            "precio_compra": "3300000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 15,
+        "fields": {
+            "titulo": "Nikon D5600 Creatividad Sin L??mites",
+            "image": "imagenes/2_y5uFZkq.jpg",
+            "descripcion": "Una DSLR compacta con un sensor de 24.2 MP y pantalla t??ctil abatible para explorar ??ngulos creativos y capturar cada momento.",
+            "cantidad": 3,
+            "precio": "5000000.00",
+            "precio_compra": "4000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 16,
+        "fields": {
+            "titulo": "Nikon Z50: Ligera y Vers??til",
+            "image": "imagenes/3.jpg",
+            "descripcion": "C??mara mirrorless con sensor APS-C de 20.9 MP, perfecta para viajes y fotograf??a diaria con su dise??o compacto y conectividad f??cil.",
+            "cantidad": 2,
+            "precio": "2300000.00",
+            "precio_compra": "1500000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 17,
+        "fields": {
+            "titulo": "Nikon D850: M??xima Resoluci??n",
+            "image": "imagenes/9_TarZXOv.jpg",
+            "descripcion": "DSLR de fotograma completo con sensor de 45.7 MP y rendimiento profesional para fotograf??a de paisajes y retratos detallados.",
+            "cantidad": 3,
+            "precio": "4500000.00",
+            "precio_compra": "3300000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 18,
+        "fields": {
+            "titulo": "Nikon Z7 II: Detalles de Alto Nivel",
+            "image": "imagenes/10_BSyFgwp.jpg",
+            "descripcion": "Mirrorless con sensor de 45.7 MP y enfoque preciso. Ideal para quienes buscan calidad de imagen y rendimiento en un cuerpo compacto.",
+            "cantidad": 2,
+            "precio": "4500000.00",
+            "precio_compra": "3000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 19,
+        "fields": {
+            "titulo": "Nikon D750: Equilibrio Perfecto",
+            "image": "imagenes/12_hiXSBaB.jpg",
+            "descripcion": "DSLR de fotograma completo con sensor de 24.3 MP y gran rendimiento en fotograf??a y video, ideal para entusiastas avanzados.",
+            "cantidad": 0,
+            "precio": "2300000.00",
+            "precio_compra": "1500000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 20,
+        "fields": {
+            "titulo": "Nikon Coolpix W300 Aventura en Cualquier Lugar",
+            "image": "imagenes/4_qI9hf4u.jpg",
+            "descripcion": "Compacta resistente al agua, golpes y congelaci??n, con sensor de 16 MP y capacidad para video en 4K, ideal para aventuras extremas.",
+            "cantidad": 1,
+            "precio": "5000000.00",
+            "precio_compra": "4100000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 21,
+        "fields": {
+            "titulo": "Sony Alpha 7 III: El Nuevo Est??ndar",
+            "image": "imagenes/12_8SsoARg.jpg",
+            "descripcion": "C??mara mirrorless full-frame con sensor de 24.2 MP, enfoque r??pido y grabaci??n en 4K. Perfecta para profesionales que buscan versatilidad.",
+            "cantidad": 1,
+            "precio": "5000000.00",
+            "precio_compra": "4000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 22,
+        "fields": {
+            "titulo": "Sony Alpha 7R IV: Resoluci??n Suprema",
+            "image": "imagenes/13.jpg",
+            "descripcion": "Sensor de 61 MP para im??genes detalladas y rango din??mico impresionante. Ideal para fotograf??a de paisajes y estudios.",
+            "cantidad": 4,
+            "precio": "5300000.00",
+            "precio_compra": "4000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 23,
+        "fields": {
+            "titulo": "Sony Alpha 6400: Potencia en un Tama??o Compacto",
+            "image": "imagenes/14.jpg",
+            "descripcion": "C??mara APS-C con enfoque autom??tico ultrarr??pido y video 4K. Ideal para vlogs y fotograf??a de viajes.",
+            "cantidad": 4,
+            "precio": "4500000.00",
+            "precio_compra": "3000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 24,
+        "fields": {
+            "titulo": "Sony RX10 IV: Superzoom Todo en Uno",
+            "image": "imagenes/15.jpg",
+            "descripcion": "C??mara puente con lente de 24-600mm y sensor de 20.1 MP, combinando zoom extremo y rendimiento profesional.",
+            "cantidad": 5,
+            "precio": "2000000.00",
+            "precio_compra": "1500000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 27,
+        "fields": {
+            "titulo": "Canon EOS 6D Mark II",
+            "image": "imagenes/8.jpg",
+            "descripcion": "DSLR full-frame de 26.2 MP con video Full HD y GPS integrado. Excelente para fot??grafos de paisaje y retrato",
+            "cantidad": 4,
+            "precio": "2000000.00",
+            "precio_compra": "1500000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 29,
+        "fields": {
+            "titulo": "Canon EOS R6",
+            "image": "imagenes/3_oBmLUmE.jpg",
+            "descripcion": "C??mara mirrorless con sensor de 20 MP y estabilizaci??n de imagen de 5 ejes. Captura en 4K a 60 fps y tiene enfoque autom??tico avanzado, ideal para fotograf??a y video de alta calidad???",
+            "cantidad": 0,
+            "precio": "4500000.00",
+            "precio_compra": "3300000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 30,
+        "fields": {
+            "titulo": "Canon EOS M6 Mark II",
+            "image": "imagenes/5.jpg",
+            "descripcion": "Compacta y ligera, con sensor APS-C de 32.5 MP. Graba video en 4K y tiene r??faga de 14 fps. Perfecta para fotograf??a cotidiana y viajes???",
+            "cantidad": 3,
+            "precio": "5000000.00",
+            "precio_compra": "4000000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 31,
+        "fields": {
+            "titulo": "Canon EOS R5",
+            "image": "imagenes/7.jpg",
+            "descripcion": "C??mara sin espejo con sensor de 45 MP y grabaci??n en 8K. Sistema de enfoque avanzado y estabilizaci??n incorporada, ideal para profesionale",
+            "cantidad": 2,
+            "precio": "5000000.00",
+            "precio_compra": "4100000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 32,
+        "fields": {
+            "titulo": "Canon EOS 90D",
+            "image": "imagenes/11_5s5Bdn6.jpg",
+            "descripcion": "DSLR con sensor APS-C de 32.5 MP, r??faga de 10 fps y video 4K. Vers??til y potente para fotograf??a deportiva y de naturaleza???",
+            "cantidad": 1,
+            "precio": "4500000.00",
+            "precio_compra": "3300000.00"
+        }
+    },
+    {
+        "model": "libreria.camaras_base",
+        "pk": 33,
+        "fields": {
+            "titulo": "Canon EOS Rebel T8i",
+            "image": "imagenes/6_N4Cv6Gc.jpg",
+            "descripcion": "DSLR de 24.1 MP con video 4K y enfoque autom??tico de 45 puntos. Ideal para principiantes que buscan facilidad de uso y calidad de imagen???",
+            "cantidad": 0,
+            "precio": "2300000.00",
+            "precio_compra": "1000000.00"
+        }
+    },
+    {
+        "model": "libreria.usuario",
+        "fields": {
+            "password": "pbkdf2_sha256$600000$wmOXD4ifm4yHqCc8L5m865$i6SDobXag52ZD9VeuDLIlH7rT+2nhKVuNWbPr7jyGJ0=",
+            "last_login": "2026-04-04T14:24:41.823Z",
+            "email": "valenciarojaskm@gmail.com",
+            "username": "mateo",
+            "nombre": "Mateo Antonio",
+            "apellido": "Valencia Rojas",
+            "direccion": "Carrera 53 #60-10",
+            "celular": "3106794916",
+            "fecha_nacimiento": "2003-05-07",
+            "cedula": "12345678",
+            "cargo": "Gerente",
+            "is_active": true,
+            "is_admin": true
+        }
+    },
+    {
+        "model": "libreria.usuario",
+        "fields": {
+            "password": "pbkdf2_sha256$870000$Exxams6GTdH1eLASk1KZcY$od5iYm2z9ihUc7fiURB96LYON7RanxKeKBJICdrj+0I=",
+            "last_login": "2024-10-25T02:00:58.378Z",
+            "email": "roberto@gmail.com",
+            "username": "roberto",
+            "nombre": "roberto",
+            "apellido": "lopez",
+            "direccion": "Carrera 53 # 60 -10",
+            "celular": "123213",
+            "fecha_nacimiento": "2009-05-14",
+            "cedula": "1000900381",
+            "cargo": "Atenci??n al cliente",
+            "is_active": true,
+            "is_admin": false
+        }
+    },
+    {
+        "model": "libreria.usuario",
+        "fields": {
+            "password": "pbkdf2_sha256$870000$cSnODd2qrawK8ow1PHiSfZ$xQW6/RWfbL4vFdOzkU6nEhjNxQLWZxcRisVL7WOx5pM=",
+            "last_login": "2024-11-08T14:29:34.868Z",
+            "email": "mariavqs@gmail.com",
+            "username": "mary",
+            "nombre": "maria victoria",
+            "apellido": "qui??ones saez",
+            "direccion": "Calle 48 # 10-30",
+            "celular": "23432423",
+            "fecha_nacimiento": "1998-01-08",
+            "cedula": "198575437",
+            "cargo": "Cajero",
+            "is_active": true,
+            "is_admin": false
+        }
+    },
+    {
+        "model": "libreria.usuario",
+        "fields": {
+            "password": "pbkdf2_sha256$870000$dj7t21hzp0OpKk7w5sFIJO$UT0iNin/RNhl1JW/fbKihdcPRusaaFgKpZ+9q+yXvhc=",
+            "last_login": "2024-11-14T18:47:30.888Z",
+            "email": "juliana@gamil.com",
+            "username": "july",
+            "nombre": "juliana",
+            "apellido": "gonzales",
+            "direccion": "Calle 53 # 60 -10",
+            "celular": "123213",
+            "fecha_nacimiento": "2024-10-15",
+            "cedula": "1000900388",
+            "cargo": "Gerente",
+            "is_active": true,
+            "is_admin": false
+        }
+    },
+    {
+        "model": "libreria.usuario",
+        "fields": {
+            "password": "pbkdf2_sha256$870000$OXpgyFjhDbpeAY5eyFQxbs$9dVSHtzG4gYZ7ESYiSXA9qs8hWEgH0MP7dkN1cNkayI=",
+            "last_login": "2024-10-27T15:51:21.193Z",
+            "email": "gambino123@gmail.com",
+            "username": "gambi",
+            "nombre": "Cucuta",
+            "apellido": "gambino",
+            "direccion": "Carrera 78 # 30-10",
+            "celular": "123213",
+            "fecha_nacimiento": "2024-10-03",
+            "cedula": "1000900380",
+            "cargo": "Asistente",
+            "is_active": true,
+            "is_admin": false
+        }
+    },
+    {
+        "model": "libreria.usuario",
+        "fields": {
+            "password": "pbkdf2_sha256$870000$6sjMZDvZN5EpSXilHHGIZt$ureLEN7rNQVoxh0D4VB9k+P97HvOmJHLr6uMeGnFbJQ=",
+            "last_login": "2024-12-18T13:48:49.447Z",
+            "email": "pablo@gmail.com",
+            "username": "pablo",
+            "nombre": "lopez",
+            "apellido": "valencia",
+            "direccion": "Avenida Carrera 53 # 60 -10",
+            "celular": "123213",
+            "fecha_nacimiento": "2024-12-08",
+            "cedula": "100090034",
+            "cargo": "Cajero",
+            "is_active": true,
+            "is_admin": false
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 69,
+        "fields": {
+            "empleado": [
+                "juliana@gamil.com"
+            ],
+            "fecha": "2024-10-24T23:59:24.880Z",
+            "total_pagado": "12600000.00",
+            "total_vendido": "12500000.00",
+            "restante": "100000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 70,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-10-25T00:38:47.419Z",
+            "total_pagado": "10000000.00",
+            "total_vendido": "9500000.00",
+            "restante": "500000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 71,
+        "fields": {
+            "empleado": [
+                "mariavqs@gmail.com"
+            ],
+            "fecha": "2024-10-25T01:59:27.992Z",
+            "total_pagado": "4500000.00",
+            "total_vendido": "4500000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 72,
+        "fields": {
+            "empleado": [
+                "mariavqs@gmail.com"
+            ],
+            "fecha": "2024-10-25T14:30:34.741Z",
+            "total_pagado": "15000000.00",
+            "total_vendido": "15000000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 73,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-10-25T14:45:49.906Z",
+            "total_pagado": "10600000.00",
+            "total_vendido": "10500000.00",
+            "restante": "100000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 74,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-10-27T15:37:51.013Z",
+            "total_pagado": "5000000.00",
+            "total_vendido": "4500000.00",
+            "restante": "500000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 75,
+        "fields": {
+            "empleado": [
+                "gambino123@gmail.com"
+            ],
+            "fecha": "2024-10-27T15:52:28.468Z",
+            "total_pagado": "8400000.00",
+            "total_vendido": "8300000.00",
+            "restante": "100000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 76,
+        "fields": {
+            "empleado": [
+                "mariavqs@gmail.com"
+            ],
+            "fecha": "2024-10-28T14:33:37.593Z",
+            "total_pagado": "2300000.00",
+            "total_vendido": "2300000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 77,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-10-29T13:46:28.369Z",
+            "total_pagado": "8000000.00",
+            "total_vendido": "7800000.00",
+            "restante": "200000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 97,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-10-30T02:03:38.686Z",
+            "total_pagado": "9000000.00",
+            "total_vendido": "8500000.00",
+            "restante": "500000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 98,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-10-30T02:07:39.632Z",
+            "total_pagado": "5000000.00",
+            "total_vendido": "4500000.00",
+            "restante": "500000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 99,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-10-31T22:50:34.021Z",
+            "total_pagado": "4500000.00",
+            "total_vendido": "4500000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 102,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-11-08T14:28:21.334Z",
+            "total_pagado": "4600000.00",
+            "total_vendido": "4500000.00",
+            "restante": "100000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 103,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-11-11T08:16:28.410Z",
+            "total_pagado": "5000000.00",
+            "total_vendido": "4500000.00",
+            "restante": "500000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 104,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-11-15T02:33:03.763Z",
+            "total_pagado": "7000000.00",
+            "total_vendido": "6800000.00",
+            "restante": "200000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 106,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-11-18T15:55:10.701Z",
+            "total_pagado": "4500000.00",
+            "total_vendido": "4500000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 107,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-11-27T16:27:17.209Z",
+            "total_pagado": "5000000.00",
+            "total_vendido": "5000000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 108,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-12-10T02:29:34.698Z",
+            "total_pagado": "4000000.00",
+            "total_vendido": "3300000.00",
+            "restante": "700000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 110,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-12-17T16:06:23.608Z",
+            "total_pagado": "6000000.00",
+            "total_vendido": "6000000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 111,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-12-17T16:06:39.111Z",
+            "total_pagado": "2000000.00",
+            "total_vendido": "2000000.00",
+            "restante": "0.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 112,
+        "fields": {
+            "empleado": [
+                "pablo@gmail.com"
+            ],
+            "fecha": "2024-12-18T13:49:43.732Z",
+            "total_pagado": "5000000.00",
+            "total_vendido": "4500000.00",
+            "restante": "500000.00"
+        }
+    },
+    {
+        "model": "libreria.factura",
+        "pk": 113,
+        "fields": {
+            "empleado": [
+                "valenciarojaskm@gmail.com"
+            ],
+            "fecha": "2024-12-24T01:31:05.402Z",
+            "total_pagado": "5000000.00",
+            "total_vendido": "4500000.00",
+            "restante": "500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 82,
+        "fields": {
+            "factura": 69,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 83,
+        "fields": {
+            "factura": 69,
+            "producto": 6,
+            "cantidad": 1,
+            "precio_unitario": "2000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 84,
+        "fields": {
+            "factura": 69,
+            "producto": 11,
+            "cantidad": 1,
+            "precio_unitario": "6000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 85,
+        "fields": {
+            "factura": 70,
+            "producto": 21,
+            "cantidad": 1,
+            "precio_unitario": "5000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 86,
+        "fields": {
+            "factura": 70,
+            "producto": 23,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 87,
+        "fields": {
+            "factura": 71,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 88,
+        "fields": {
+            "factura": 72,
+            "producto": 10,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 89,
+        "fields": {
+            "factura": 72,
+            "producto": 12,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 90,
+        "fields": {
+            "factura": 72,
+            "producto": 11,
+            "cantidad": 1,
+            "precio_unitario": "6000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 91,
+        "fields": {
+            "factura": 73,
+            "producto": 5,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 92,
+        "fields": {
+            "factura": 73,
+            "producto": 11,
+            "cantidad": 1,
+            "precio_unitario": "6000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 93,
+        "fields": {
+            "factura": 74,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 94,
+        "fields": {
+            "factura": 75,
+            "producto": 7,
+            "cantidad": 1,
+            "precio_unitario": "2300000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 95,
+        "fields": {
+            "factura": 75,
+            "producto": 11,
+            "cantidad": 1,
+            "precio_unitario": "6000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 96,
+        "fields": {
+            "factura": 76,
+            "producto": 7,
+            "cantidad": 1,
+            "precio_unitario": "2300000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 97,
+        "fields": {
+            "factura": 77,
+            "producto": 9,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 119,
+        "fields": {
+            "factura": 97,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 120,
+        "fields": {
+            "factura": 97,
+            "producto": 6,
+            "cantidad": 2,
+            "precio_unitario": "2000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 121,
+        "fields": {
+            "factura": 98,
+            "producto": 5,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 122,
+        "fields": {
+            "factura": 99,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 125,
+        "fields": {
+            "factura": 102,
+            "producto": 5,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 126,
+        "fields": {
+            "factura": 103,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 127,
+        "fields": {
+            "factura": 104,
+            "producto": 7,
+            "cantidad": 1,
+            "precio_unitario": "2300000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 128,
+        "fields": {
+            "factura": 104,
+            "producto": 9,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 131,
+        "fields": {
+            "factura": 106,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 132,
+        "fields": {
+            "factura": 107,
+            "producto": 21,
+            "cantidad": 1,
+            "precio_unitario": "5000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 135,
+        "fields": {
+            "factura": 110,
+            "producto": 11,
+            "cantidad": 1,
+            "precio_unitario": "6000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 136,
+        "fields": {
+            "factura": 111,
+            "producto": 24,
+            "cantidad": 1,
+            "precio_unitario": "2000000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 137,
+        "fields": {
+            "factura": 112,
+            "producto": 5,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    },
+    {
+        "model": "libreria.productofactura",
+        "pk": 138,
+        "fields": {
+            "factura": 113,
+            "producto": 3,
+            "cantidad": 1,
+            "precio_unitario": "4500000.00"
+        }
+    }
+]
