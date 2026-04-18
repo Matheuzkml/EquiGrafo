@@ -20,11 +20,11 @@
 
 
         .overlay {
-            position: absolute;
-            top: 60px;
+            position: fixed;
+            top: 0;
             left: 0;
-            width: 100%;
-            height: calc(100% - 60px);
+            width: 100vw;
+            height: 100vh;
             background-color: rgba(0, 0, 0, 0.5);
             z-index: 1;
         }
@@ -192,6 +192,31 @@
         ::-webkit-scrollbar-thumb {
             background: rgba(0, 0, 0, 0.5);
             border-radius: 10px;
+        }
+        
+        /* Ajustes responsivos para celulares y tablets (No necesitan Hover para revelar Info) */
+        @media (max-width: 768px) {
+            .card {
+                height: auto !important; 
+                cursor: default;
+            }
+            .card-content {
+                opacity: 1 !important;
+            }
+            .card-description {
+                display: block !important;
+            }
+            .objectives li {
+                opacity: 1 !important; 
+                transform: none !important;
+            }
+            main {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            .grid-container {
+                grid-template-columns: 1fr; /* Columna única en celular */
+            }
         }
     </style>
 </head>

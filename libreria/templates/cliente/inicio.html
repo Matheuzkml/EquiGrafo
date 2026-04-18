@@ -15,11 +15,11 @@
         <!-- Formulario de búsqueda -->
         <form method="GET" action="{% url 'inicio' %}" class="mb-4">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-12 col-md-3 mb-3">
                     <label for="search" class="form-label">Buscar</label>
                     <input type="text" id="search" name="search" class="form-control" placeholder="Buscar...">
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-md-3 mb-3">
                     <label for="mp_range" class="form-label">Rango de MP</label>
                     <select id="mp_range" name="mp_range" class="form-select">
                         <option value="">Selecciona un rango</option>
@@ -29,15 +29,15 @@
                         <option value="60-max">60 MP y más</option>
                     </select>
                 </div>
-                <div class="col-md-3">
+                <div class="col-12 col-md-3 mb-3">
                     <label for="resolution" class="form-label">Resolución</label>
                     <select id="resolution" name="resolution" class="form-select">
                         <option value="">Selecciona una resolución</option>
                         <option value="4K">4K</option>
                     </select>
                 </div>
-                <div class="col-md-3 align-self-end">
-                    <button type="submit" class="btn btn-primary btn-custom">Buscar</button>
+                <div class="col-12 col-md-3 mb-3 align-self-end">
+                    <button type="submit" class="btn btn-primary btn-custom w-100">Buscar</button>
                 </div>
             </div>
         </form>
@@ -398,6 +398,34 @@
     ::-webkit-scrollbar-thumb {
         background: rgba(0, 0, 0, 0.5);
         border-radius: 10px;
+    }
+
+    /* Adaptación para pantallas de celular (Responsive) */
+    @media (max-width: 768px) {
+        .camara-overlay {
+            height: auto;
+            min-height: 250px;
+        }
+        
+        .camara-dark-overlay {
+            opacity: 0.8 !important; 
+        }
+        
+        .camara-text {
+            opacity: 1 !important; 
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .welcome-text {
+            font-size: 1.5em;
+        }
+        
+        .carousel-image-container {
+            height: 200px;
+        }
     }
 
 </style>
