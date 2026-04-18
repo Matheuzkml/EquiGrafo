@@ -403,20 +403,38 @@
     /* Adaptación para pantallas de celular (Responsive) */
     @media (max-width: 768px) {
         .camara-overlay {
-            height: auto;
-            min-height: 250px;
+            height: auto !important;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .camara-image {
+            height: 250px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+            transform: none !important;
         }
         
         .camara-dark-overlay {
-            opacity: 0.8 !important; 
+            display: none !important; /* Desactivar el filtro oscuro en el celular */
         }
         
         .camara-text {
             opacity: 1 !important; 
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            position: relative !important;
+            top: auto !important;
+            left: auto !important;
+            transform: none !important;
+            background-color: #333;
+            width: 100% !important;
+            border-radius: 0 0 8px 8px;
+            padding: 15px !important;
+        }
+
+        .camara-text h5 {
+            font-size: 1.1em;
+            margin-bottom: 10px;
         }
         
         .welcome-text {
